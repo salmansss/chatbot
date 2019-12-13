@@ -1,0 +1,132 @@
+/*
+ * SimpleModal Basic Modal Dialog
+ * http://www.ericmmartin.com/projects/simplemodal/
+ * http://code.google.com/p/simplemodal/
+ *
+ * Copyright (c) 2010 Eric Martin - http://ericmmartin.com
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Revision: $Id: basic.css 257 2010-07-27 23:06:56Z emartin24 $
+ */
+
+#basic-modal-content {
+	display:none;
+}
+#basic-modal-content-1 {
+	display:none;
+}
+
+.r{
+	font-size: 18px;
+	color: #0A3070;
+	font-family: 'News Cycle', sans-serif;
+}
+
+.r:link{
+	font-size: 18px;
+	color: #0A3070;
+	text-decoration: none;
+}
+
+.r:hover{
+	font-size: 18px;
+	color: #0A3070;
+	text-decoration: none;
+}
+
+
+/* Overlay */
+#simplemodal-overlay {background-color:#000; cursor:wait;}
+
+/* Container */
+#simplemodal-container {
+	width: 600px;
+	left: 20px;
+	top: 20px;
+	/* */
+
+  position: absolute;
+	position: fixed;
+	margin: 0;
+	color: #333333;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 18px;
+	background-color: #FFFFFF;
+	border: 1px solid #EAEEFA;
+	border: 1px solid rgba(234, 238, 250, 0.6);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+	z-index: 99999;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+
+.orangebutton {
+	background: #ffc339; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffc339 0%, #ff9b19 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc339), color-stop(100%,#ff9b19)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffc339 0%,#ff9b19 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffc339 0%,#ff9b19 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffc339 0%,#ff9b19 100%); /* IE10+ */
+
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc339', endColorstr='#ff9b19',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #ffc339 0%,#ff9b19 100%); /* W3C */
+	outline: 0 none;
+	border: 1px solid #ff9b19;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 20px;
+	font-size: 16px;
+	padding: 6px 12px;
+	color: #0A306F;
+	text-shadow: -1px -1px #ff9b19;
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+	font-family: 'News Cycle', sans-serif;
+}
+
+
+.inputdesign {
+	float: left;
+	border: 1px solid #CCCCCC;
+	width: 250px;
+	height: 20px;
+	line-height: 19px;
+	color: #333333;
+	font-size: 14px;
+	background-color: #e3e3e3;
+	font-family: 'News Cycle', sans-serif;
+	text-align: left;
+	padding: 0px;
+	background-repeat: no-repeat;
+}
+
+#simplemodal-container code {
+	background:#333333;
+	border-left:3px solid #65B43D;
+	color:#FFFFFF;
+	display:block;
+	font-size:14px;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+#simplemodal-container a.modalCloseImg {
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:-15px;
+	right:-16px;
+	cursor:pointer;
+	background-image: url(../images/basic/x.png);
+	background-repeat: no-repeat;
+}
